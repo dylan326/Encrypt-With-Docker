@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Encode Message</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <a class="homeLink" href="/">Home</a>
+        <h1>Write message for encodeing</h1>
+       <form action="logic/encode.php" method="post">
+           <textarea rows="10" cols="80" name="messageToEncode"  placeholder="Message to encode..."></textarea><br><br>
+           <input type="submit" class="submitEncodeOrDecode" value="Encode my Message">
+       </form>
+       <div id="encodedOutput">
+       <h3>Here is the message encoded. Send this message and have the receiver run it through the decoder on this website to uncover the message</h3>
+       <p id="theMessageEncoded"></p>
+       </div>
+    </body>
+</html>
+<script src="scripts/getencoded.js"></script>

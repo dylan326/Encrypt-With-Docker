@@ -1,0 +1,53 @@
+.homeLink {
+    float: right;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#welcomeMessage
+{
+    text-align: center;
+}
+
+#homeButtons
+{
+    
+    text-align: center;
+    
+}
+.encodeOrDecodeButton
+{
+    height: 125px;
+    font-size: 22px;
+    width: 40%;
+    margin: 25px;
+    cursor: pointer;
+}
+
+#subMessage{
+    font-size: 17px;
+}
+
+textarea
+{
+    border-radius: 5px;
+}
+#theMessageEncoded
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightblue;
+    padding: 15px;
+}
+
+#theMessageDecoded
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightblue;
+    padding: 15px;
+}
